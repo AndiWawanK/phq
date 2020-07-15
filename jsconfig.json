@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@assets": ["src/Assets/*"],
+            "@components": ["src/Components/*"],
+            "@navigations": ["src/Navigations/*"],
+            "@scenes": ["src/Scenes/*"],
+            "@styles": ["src/Styles/*"],
+            "@utils": ["src/Utils/*"],
+            "@stores": ["src/Stores/*"],
+            "@reducers": ["src/Reducers/*"],
+            "@constants": ["src/Constants/*"],
+            "@actions": ["src/Actions/*"]
+        }
+    }
+}
