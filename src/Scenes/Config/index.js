@@ -129,7 +129,8 @@ const Config = () => {
                 centerComponent={{
                     text: 'Config Management',
                     style: {
-                        color: '#fff'
+                        color: '#fff',
+                        fontSize: 18
                     }
                 }}
                 containerStyle={styles.headerContainer}

@@ -10,7 +10,8 @@ const Home = () => {
                 centerComponent={{ 
                     text: 'pHq', 
                     style: { 
-                        color: '#fff' 
+                        color: '#fff',
+                        fontSize: 18
                     } 
                 }}
                 containerStyle={styles.headerContainer}
