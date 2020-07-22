@@ -18,17 +18,31 @@ export default StyleSheet.create({
         bottom: width * 0.08,
         backgroundColor: Colors.PRIMARY,
         borderRadius: 75,
-        elevation: 8
+        elevation: 8,
+        zIndex: 5
     },
-    footerCardContainer: {
-        flex: 1,
-        flexDirection: "row"
+    modalContainer: {
+        flex: 1, 
+        alignItems: "center", 
+        justifyContent: "center"
     },
-    footerCard: {
-        flex: 1,
-        padding: width * 0.01
+    modalContentContainer: {
+        width: width * 0.9,
+        padding: width * 0.05,
+        borderRadius: 5,
+        backgroundColor: Colors.WHITE
     },
-    btnAction: {
+    modalTitle: {
+        textAlign: "center",
+        fontSize: Normalize(14),
+        fontWeight: "bold",
+        marginBottom: width * 0.08
+    },
+    btnModal: {
+        backgroundColor: Colors.PRIMARY
+    },
+    btnModalCancel: {
+        marginTop: width * 0.02,
         borderColor: Colors.PRIMARY
     }
 })
