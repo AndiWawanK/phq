@@ -1,4 +1,4 @@
-const base_url = 'http://eaac56705296.ngrok.io/api';
+const base_url = 'http://4c507100be01.ngrok.io/api';
 // const base_url = 'http://192.168.100.18/api';
 
 export const login = base_url + "/user/auth";
